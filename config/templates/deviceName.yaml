@@ -1,0 +1,11 @@
+---
+DebugLevel: 1
+olddeviceName:
+  list: [eno16780032, eno67111936, eno50332672, eno33561344]
+newdevicename:
+  list: [MGT,eth0,eth1,eth2,eth3]
+IgnoredDevicePatterns:
+  - "^veth.*"
+  - "^br.*"
+  - "^lo.*"
+  - "docker0"
